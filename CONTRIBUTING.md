@@ -5,7 +5,7 @@
 Using conda!
 
 ```bash
-conda create --name ddocs python sphinx myst-parser -c conda-forge -y -q
+conda create --name ddocs python -c conda-forge -y -q
 ```
 
 Activate the environment
@@ -15,7 +15,7 @@ conda activate ddocs
 ```
 
 ```bash
-pip install sphinx_book_theme
+pip install -r requirements.txt
 ```
 
 ```bash
